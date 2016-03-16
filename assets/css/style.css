@@ -1,0 +1,113 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 40px;
+}
+
+.navbar-default {
+    background-color: #41cac0;
+    border-color: #40c1be;
+}
+
+.navbar-default .navbar-brand {
+    color: #f1f2f7;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+.container-fluid .text-muted {
+  margin: 15px 0;
+}
+
+.panel-default > .panel-heading {
+    background-color: #41cac0;
+    border-color: #40c1be;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #41cac0;
+    border-color: #40c1be;
+    color: #fff;
+}
+
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #37bab7;
+  border-color: #2db1ae;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #37bab7;
+  border-color: #2db1ae;
+}
+
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #37bab7;
+  border-color: #2db1ae;
+}
+
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #37bab7;
+  border-color: #2db1ae;
+}
+
+.input-group-addon {
+    background-color: #41cac0;
+    border: 1px solid #40c1be;
+    border-radius: 4px;
+    color: #f1f2f7;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #41cac0;
+    border-color: #40c1be;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
+}
+
+.footer {
+  /*position: absolute;
+  bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+}
+
+.btn-tambah {
+	margin-top: -7px;
+}
+
+.center {
+	text-align: center;
+}
+
+.pagination {
+	margin-top: -20px;
+}
+
+.btn-submit {
+	width: 80px;
+}
+
+.btn-reset {
+	width: 80px;
+	margin-left: 10px;
+}
